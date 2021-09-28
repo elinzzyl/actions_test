@@ -36,4 +36,5 @@ jobs:
           echo test, and deploy your project.
       - name: Echo env
         run: echo ${GITHUB_REPOSITORY}
-             echo env
+             echo test-123
+             echo github.ref
