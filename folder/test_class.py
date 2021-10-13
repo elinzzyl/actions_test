@@ -5,7 +5,7 @@ class TestClassOne(object):
 
     def test_two(self):
         x = "hello"
-        assert hasattr(x, 'check')
+        assert 'l' in x
 
 
 class TestClassTwo(object):
@@ -15,4 +15,4 @@ class TestClassTwo(object):
 
     def test_two(self):
         x = "apple"
-        assert hasattr(x, 'check')
+        assert 'b' not in x
