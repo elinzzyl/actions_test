@@ -52,5 +52,5 @@ jobs:
       
       # PyTest    
       - name: Run PyTest
-        run:  pytest $GITHUB_WORKSPACE/folder
+        run:  pytest -v $GITHUB_WORKSPACE/folder
            
