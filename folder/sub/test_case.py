@@ -15,12 +15,12 @@ class Test1(unittest.TestCase):
     def tearDown(self):
         print("execute tearDown")
 
-    def test_one(self):
-        print('execute test_one')
+    def test_upper(self):
+        print('execute test_upper')
         self.assertTrue('FOO'.isupper())
 
-    def test_two(self):
-        print('execute test_two')
+    def test_lower(self):
+        print('execute test_lower')
         self.assertTrue('foo'.islower())
 
 
