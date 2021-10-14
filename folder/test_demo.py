@@ -31,7 +31,7 @@ class TestDemo(unittest.TestCase):
     def test_minus(self):
         """Test method minus(a, b)"""
         self.assertEqual(1, minus(3, 2))
-        self.assertNotEqual(1, minus(3, 2))
+        self.assertNotEqual(-1, minus(3, 2))
 
     @unittest.skip("do't run as not ready")
     def test_minus_with_skip(self):
