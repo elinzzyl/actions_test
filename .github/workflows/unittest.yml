@@ -1,4 +1,4 @@
-name: Test
+name: Unit_Test
 on: pull_request
 jobs:
   test:
@@ -14,4 +14,4 @@ jobs:
           pip install -r requirements.txt          
       - name: Test
         run:
-          python -m unittest discover -s $GITHUB_WORKSPACE/folder
+          python -m unittest discover -v -s $GITHUB_WORKSPACE/folder
