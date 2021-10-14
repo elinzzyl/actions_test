@@ -21,7 +21,9 @@ class Test1(unittest.TestCase):
 
     def test_two(self):
         print('execute test_two')
+        self.assertTrue('foo'.islower())
+
 
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(verbosity=2)
