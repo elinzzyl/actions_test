@@ -50,7 +50,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pipreqs
           pipreqs $GITHUB_WORKSPACE/folder
-          pip install -r requirements.txt
+          pip install -r $GITHUB_WORKSPACE/folder/requirements.txt
       
       # PyTest    
       - name: Run PyTest
