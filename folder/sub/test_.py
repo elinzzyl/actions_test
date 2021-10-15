@@ -3,7 +3,7 @@ import unittest
 class Test1(unittest.TestCase):
     @classmethod
     def setUpClass(self):
-        print("execute setUpClass")
+        print("execute setUpClass --")
 
     @classmethod
     def tearDownClass(self):
