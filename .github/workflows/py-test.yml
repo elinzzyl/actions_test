@@ -41,9 +41,9 @@ jobs:
           echo $GITHUB_WORKSPACE
       
       - name: Install Python 3
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v2
         with:
-          python-version: 3.6
+          python-version: 3.7
       
       - name: Install dependencies
         run: |
@@ -55,5 +55,5 @@ jobs:
       
       # PyTest    
       - name: Run PyTest
-        run:  pytest -v $GITHUB_WORKSPACE/folder
+        run:  pytest -vv $GITHUB_WORKSPACE/folder
            
