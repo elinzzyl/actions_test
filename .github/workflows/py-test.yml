@@ -12,7 +12,7 @@ on:
   pull_request:
     branches: [ main ]
     paths:
-    - '$GITHUB_WORKSPACE/folder/**.py'
+    - $GITHUB_WORKSPACE/folder/'**.py'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

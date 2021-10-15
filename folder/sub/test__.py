@@ -20,7 +20,7 @@ class Test1(unittest.TestCase):
         self.assertTrue('FOO'.isupper())
 
     def test_lower(self):
-        print('execute test_lower')
+        print('execute test_lower  ')
         self.assertTrue('foo'.islower())
 
 
