@@ -16,7 +16,7 @@ class Test1(unittest.TestCase):
         print("execute tearDown")
 
     def test_upper(self):
-        print('execute test_upper')
+        print('execute test_upper ')
         self.assertTrue('FOO'.isupper())
 
     def test_lower(self):
