@@ -7,7 +7,7 @@ class Test1(unittest.TestCase):
 
     @classmethod
     def tearDownClass(self):
-        print("execute tearDownClass")
+        print("execute tearDownClass ")
 
     def setUp(self):
         print("execute setUp")
